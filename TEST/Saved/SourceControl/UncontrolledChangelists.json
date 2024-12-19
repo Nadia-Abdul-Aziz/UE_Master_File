@@ -1,0 +1,36 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/FirstPersonArms/Animations/Axe.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/FPWeapon/Mesh/default_material.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/FPWeapon/Mesh/SK_ucylebxfa_tier_2.uasset",
+				"C:/Program Files/Epic Games/UE_5.5/Engine/Plugins/Fab/Content/Materials/Standard/M_MS_Base.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/FPWeapon/Mesh/MI_ucylebxfa.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/Fab/Megascans/3D/Old_Pickaxe_ucylebxfa/Medium/MI_ucylebxfa.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/FPWeapon/Mesh/pickaxe_fbx_file.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/FPWeapon/Mesh/pickaxe_fbx_file_PhysicsAsset.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/FPWeapon/Mesh/pickaxe_fbx_file_Skeleton.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/FPWeapon/Mesh/SKM_ucylebxfa_tier_2.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/FPWeapon/Mesh/T_ucylebxfa_2K_B.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/Fab/Megascans/3D/Old_Pickaxe_ucylebxfa/Medium/T_ucylebxfa_2K_B.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/Fab/Megascans/3D/Old_Pickaxe_ucylebxfa/Medium/T_ucylebxfa_2K_N.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/FPWeapon/Mesh/T_ucylebxfa_2K_N.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/FPWeapon/Mesh/T_ucylebxfa_2K_ORM.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/Fab/Megascans/3D/Old_Pickaxe_ucylebxfa/Medium/T_ucylebxfa_2K_ORM.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/FPWeapon/Mesh/ucylebxfa_tier_2.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/Fab/Megascans/3D/Old_Pickaxe_ucylebxfa/Medium/ucylebxfa_tier_2.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/FirstPersonArms/Animations/axeMontage.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/FirstPersonArms/Animations/FirstPerson_AnimBP.uasset",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/Axe.umap",
+				"C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/TEST/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset"
+			]
+		}
+	]
+}
