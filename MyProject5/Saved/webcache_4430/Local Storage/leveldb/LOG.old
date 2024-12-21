@@ -1,3 +1,6 @@
-2024/12/20-10:51:03.438 3a44 Reusing MANIFEST C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
-2024/12/20-10:51:03.439 3a44 Recovering log #3
-2024/12/20-10:51:03.439 3a44 Reusing old log C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/webcache_4430\Local Storage\leveldb/000003.log 
+2024/12/20-21:50:46.883 3d24 Reusing MANIFEST C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2024/12/20-21:50:46.893 3d24 Recovering log #3
+2024/12/20-21:50:46.894 3d24 Reusing old log C:/Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/webcache_4430\Local Storage\leveldb/000003.log 
+2024/12/20-22:00:08.171 1290 Level-0 table #5: started
+2024/12/20-22:00:08.174 1290 Level-0 table #5: 11951 bytes OK
+2024/12/20-22:00:08.176 1290 Delete type=0 #3
