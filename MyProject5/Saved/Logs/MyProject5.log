@@ -3990,3 +3990,1047 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2024.12.21-11.17.56:719][146]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2024.12.21-11.17.56:719][146]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2024.12.21-11.17.56:719][146]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2024.12.21-11.18.26:120][482]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.21-11.18.26:131][482]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.21-11.18.26:131][482]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.12.21-11.18.26:138][482]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 6.909 ms (total: 136.134 ms)
+[2024.12.21-11.18.26:138][482]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.21-11.18.26:138][482]LogPlayLevel: Display: Creating online subsystem for client :Context_19
+[2024.12.21-11.18.26:141][482]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.12.21-11.18.26:188][483]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.12.21-11.18.26:204][483]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015894s)
+[2024.12.21-11.18.26:204][483]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.015971s)
+[2024.12.21-11.18.26:217][483]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.12.21-11.18.26:223][483]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2024.12.21-11.18.26:227][483]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.21-11.18.26:227][483]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.21-11.18.26:227][483]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.21-11.18.26:227][483]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.21-11.18.26:232][483]LogWorldPartition: Display: WorldPartition initialize took 4.990 ms (total: 2.28 sec)
+[2024.12.21-11.18.26:232][483]LogPlayLevel: PIE: World Init took: (0.009003s)
+[2024.12.21-11.18.26:233][483]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.12.21-11.18.26:233][483]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.21-11.18.26:233][483]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.21-11.18.26:233][483]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.21-11.18.26:233][483]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.21-11.18.26:233][483]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.12.21-11.18.26:233][483]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.21-11.18.26:233][483]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.12.21-11.18.26:233][483]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.21-11.18.26:233][483]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.21-11.18.26:233][483]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.21-11.18.26:233][483]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.21-11.18.26:235][483]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.21-11.18.26:251][483]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2024.12.21-11.18.26:252][483]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.21-11.18.26:252][483]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.21-11.18.26:252][483]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.21-11.18.26:252][483]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.12.21-11.18.26:252][483]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.12.21-11.18.26:258][483]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.12.21-11.18.26:258][483]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.12.21-11.18.26:258][483]LogInit: FAudioDevice initialized with ID 18.
+[2024.12.21-11.18.26:258][483]LogAudio: Display: Audio Device (ID: 18) registered with world 'FirstPersonMap'.
+[2024.12.21-11.18.26:258][483]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.12.21-11.18.26:330][483]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.12.21-11.18.26:340][483]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.12.21-06.18.26
+[2024.12.21-11.18.26:342][483]LogWorld: Bringing up level for play took: 0.011072
+[2024.12.21-11.18.26:347][483]PIE: Server logged in
+[2024.12.21-11.18.26:348][483]PIE: Play in editor total start time 0.218 seconds.
+[2024.12.21-11.19.26:294][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.21-11.19.26:294][292]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.12.21-11.19.26:294][292]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.21-11.19.26:297][292]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.21-11.19.26:297][292]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2024.12.21-11.19.26:438][292]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.21-11.19.26:443][292]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.21-11.19.26:458][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.21-11.19.26:459][292]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.12.21-11.19.26:459][292]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.12.21-11.19.26:461][292]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.12.21-11.19.26:472][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.12.21-11.19.26:593][293]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.12.21-11.19.36:697][341]LogDerivedDataCache: C:/Users/NADIA/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.12.21-11.20.06:998][431]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 21745.447266
+[2024.12.21-11.20.07:998][434]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-11.20.07:998][434]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 21746.115234, Update Interval: 300.963165
+[2024.12.21-11.26.05:062][505]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22104.074219
+[2024.12.21-11.26.06:062][508]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-11.26.06:062][508]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22104.742188, Update Interval: 307.282318
+[2024.12.21-11.32.02:475][577]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22462.070312
+[2024.12.21-11.32.03:474][580]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-11.32.03:475][580]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22462.738281, Update Interval: 337.285065
+[2024.12.21-11.38.22:551][717]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22842.726562
+[2024.12.21-11.38.23:551][720]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-11.38.23:551][720]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22843.392578, Update Interval: 335.675537
+[2024.12.21-11.44.55:315][895]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23236.031250
+[2024.12.21-11.44.56:316][898]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-11.44.56:316][898]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23236.699219, Update Interval: 308.785675
+[2024.12.21-11.50.51:716][964]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23592.955078
+[2024.12.21-11.50.52:716][967]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-11.50.52:716][967]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23593.623047, Update Interval: 304.063232
+[2024.12.21-11.56.56:457][ 58]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23958.230469
+[2024.12.21-11.56.57:458][ 61]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-11.56.57:458][ 61]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23958.898438, Update Interval: 317.895447
+[2024.12.21-12.02.52:537][126]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24314.841797
+[2024.12.21-12.02.53:537][129]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-12.02.53:537][129]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24315.509766, Update Interval: 357.132477
+[2024.12.21-12.09.28:278][313]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24711.181641
+[2024.12.21-12.09.29:279][316]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-12.09.29:279][316]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24711.849609, Update Interval: 312.587067
+[2024.12.21-12.15.39:014][425]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25082.406250
+[2024.12.21-12.15.40:014][428]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-12.15.40:014][428]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25083.074219, Update Interval: 319.204681
+[2024.12.21-12.16.37:217][ 63]Cmd: EDIT COPY
+[2024.12.21-12.16.38:096][ 74]Cmd: EDIT PASTE
+[2024.12.21-12.19.16:179][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.12.21-12.19.16:184][222]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/0B/QPS87CPI30IVIET6GJLUUN_Auto6
+[2024.12.21-12.19.16:184][222]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/QPS87CPI30IVIET6GJLUUN_Auto61F449CC34949D4C2A4B6A8A40DC81265.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/0B/QPS87CPI30IVIET6GJLUUN_Auto6.uasset'
+[2024.12.21-12.19.16:185][222]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.019
+[2024.12.21-12.19.16:185][222]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.019
+[2024.12.21-12.19.36:698][509]LogDerivedDataCache: C:/Users/NADIA/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.12.21-12.20.38:503][333]Cmd: EDIT COPY
+[2024.12.21-12.20.39:248][343]Cmd: EDIT PASTE
+[2024.12.21-12.21.40:710][134]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25444.328125
+[2024.12.21-12.21.40:950][137]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-12.21.40:950][137]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25444.503906, Update Interval: 324.837189
+[2024.12.21-12.25.55:892][753]Cmd: EDIT COPY
+[2024.12.21-12.25.56:557][763]Cmd: EDIT PASTE
+[2024.12.21-12.27.43:225][ 55]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25806.873047
+[2024.12.21-12.27.43:419][ 58]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-12.27.43:419][ 58]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25807.003906, Update Interval: 355.352631
+[2024.12.21-12.29.10:448][222]Cmd: EDIT COPY
+[2024.12.21-12.29.10:757][227]Cmd: EDIT PASTE
+[2024.12.21-12.30.22:837][215]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.12.21-12.30.22:842][215]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/0B/QPS87CPI30IVIET6GJLUUN_Auto7
+[2024.12.21-12.30.22:842][215]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/QPS87CPI30IVIET6GJLUUN_Auto74DF40B5140BF9A6D754B79A91F34FE51.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/0B/QPS87CPI30IVIET6GJLUUN_Auto7.uasset'
+[2024.12.21-12.30.22:844][215]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/0W/R38F830K37X359QXBHSZ47_Auto7
+[2024.12.21-12.30.22:844][215]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/R38F830K37X359QXBHSZ47_Auto7D1A3069948DADC5C3D5C8B9C00092D1E.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/0W/R38F830K37X359QXBHSZ47_Auto7.uasset'
+[2024.12.21-12.30.22:846][215]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/I5/7W9ED556NET6FSH41ZB7SP_Auto7
+[2024.12.21-12.30.22:846][215]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/7W9ED556NET6FSH41ZB7SP_Auto748FA2F234BE5D34579095F92D1B773B5.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/I5/7W9ED556NET6FSH41ZB7SP_Auto7.uasset'
+[2024.12.21-12.30.22:849][215]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/G4/6K7J9Y61M3X9VRFIYQ4G4C_Auto7
+[2024.12.21-12.30.22:849][215]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/6K7J9Y61M3X9VRFIYQ4G4C_Auto778F11BEF4544510BEBC540A88BCD49E2.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/G4/6K7J9Y61M3X9VRFIYQ4G4C_Auto7.uasset'
+[2024.12.21-12.30.22:850][215]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.025
+[2024.12.21-12.30.22:850][215]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.025
+[2024.12.21-12.34.15:676][514]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26199.513672
+[2024.12.21-12.34.16:676][517]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-12.34.16:676][517]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26200.181641, Update Interval: 315.456390
+[2024.12.21-12.35.57:998][997]Cmd: EDIT COPY
+[2024.12.21-12.35.58:235][  0]Cmd: EDIT PASTE
+[2024.12.21-12.40.24:262][679]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.12.21-12.40.24:268][679]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/AR/S194V1QC6FR5GLD7D1XRNX_Auto8
+[2024.12.21-12.40.24:268][679]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/S194V1QC6FR5GLD7D1XRNX_Auto870BBC7504E29129761EA9E91ECB4BF4C.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/AR/S194V1QC6FR5GLD7D1XRNX_Auto8.uasset'
+[2024.12.21-12.40.24:269][679]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.020
+[2024.12.21-12.40.24:269][679]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.020
+[2024.12.21-12.40.27:410][728]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26571.562500
+[2024.12.21-12.40.27:777][731]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-12.40.27:777][731]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26571.685547, Update Interval: 309.768982
+[2024.12.21-12.42.12:351][310]Cmd: TRANSACTION UNDO
+[2024.12.21-12.42.12:351][310]LogEditorTransaction: Undo Move Elements
+[2024.12.21-12.42.28:221][522]Cmd: EDIT COPY
+[2024.12.21-12.42.28:656][527]Cmd: EDIT PASTE
+[2024.12.21-12.46.09:680][328]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26916.240234
+[2024.12.21-12.46.09:864][331]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-12.46.09:864][331]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26916.361328, Update Interval: 354.644012
+[2024.12.21-12.49.11:949][947]Cmd: EDIT COPY
+[2024.12.21-12.49.16:882][ 15]Cmd: EDIT COPY
+[2024.12.21-12.49.17:286][ 21]Cmd: EDIT PASTE
+[2024.12.21-12.49.37:422][273]Cmd: DELETE
+[2024.12.21-12.49.37:422][273]Cmd: ACTOR DELETE
+[2024.12.21-12.49.37:426][273]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.21-12.49.37:442][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.12.21-12.49.37:447][273]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2024.12.21-12.50.24:617][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.12.21-12.50.24:622][958]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/0B/QPS87CPI30IVIET6GJLUUN_Auto9
+[2024.12.21-12.50.24:622][958]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/QPS87CPI30IVIET6GJLUUN_Auto91A5CE5B94E57E62BE6271F8DC3351106.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/0B/QPS87CPI30IVIET6GJLUUN_Auto9.uasset'
+[2024.12.21-12.50.24:624][958]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/0W/R38F830K37X359QXBHSZ47_Auto9
+[2024.12.21-12.50.24:624][958]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/R38F830K37X359QXBHSZ47_Auto9A138A4E547B0BD5D5F706B927580D0C8.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/0W/R38F830K37X359QXBHSZ47_Auto9.uasset'
+[2024.12.21-12.50.24:626][958]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/I5/7W9ED556NET6FSH41ZB7SP_Auto9
+[2024.12.21-12.50.24:626][958]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/7W9ED556NET6FSH41ZB7SP_Auto99F3B096E4FAB92ABF961168AD0BD7D16.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/I5/7W9ED556NET6FSH41ZB7SP_Auto9.uasset'
+[2024.12.21-12.50.24:628][958]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/G4/6K7J9Y61M3X9VRFIYQ4G4C_Auto9
+[2024.12.21-12.50.24:629][958]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/6K7J9Y61M3X9VRFIYQ4G4C_Auto9DA4DF8B54F4FDE16E7AAA08E0B5C9802.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/G4/6K7J9Y61M3X9VRFIYQ4G4C_Auto9.uasset'
+[2024.12.21-12.50.24:631][958]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/AR/S194V1QC6FR5GLD7D1XRNX_Auto9
+[2024.12.21-12.50.24:631][958]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/S194V1QC6FR5GLD7D1XRNX_Auto977AD4DBC4D1866A71D2E3AB9B5A0270A.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/AR/S194V1QC6FR5GLD7D1XRNX_Auto9.uasset'
+[2024.12.21-12.50.24:634][958]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/31/XXZB1CDYWN22BEW9ZO0KPR_Auto9
+[2024.12.21-12.50.24:634][958]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/XXZB1CDYWN22BEW9ZO0KPR_Auto9E586DE1D4D8528A3C0F83FBE4734E77F.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/31/XXZB1CDYWN22BEW9ZO0KPR_Auto9.uasset'
+[2024.12.21-12.50.24:637][958]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/VY/S3RXU498QY5UN2IMLUUWHF_Auto9
+[2024.12.21-12.50.24:637][958]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/S3RXU498QY5UN2IMLUUWHF_Auto9C75329DE430F905805F74298E17332F8.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/VY/S3RXU498QY5UN2IMLUUWHF_Auto9.uasset'
+[2024.12.21-12.50.24:638][958]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.034
+[2024.12.21-12.50.24:638][958]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.034
+[2024.12.21-12.52.50:070][ 82]Cmd: TRANSACTION UNDO
+[2024.12.21-12.52.50:070][ 82]LogEditorTransaction: Undo Move Elements
+[2024.12.21-12.52.54:766][145]Cmd: EDIT COPY
+[2024.12.21-12.52.55:108][149]Cmd: EDIT PASTE
+[2024.12.21-12.52.59:404][206]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 27325.830078
+[2024.12.21-12.52.59:613][209]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-12.52.59:613][209]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27325.968750, Update Interval: 325.868103
+[2024.12.21-12.59.06:983][187]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 27693.060547
+[2024.12.21-12.59.07:125][193]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-12.59.07:125][193]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27693.138672, Update Interval: 337.667786
+[2024.12.21-13.00.10:384][267]Cmd: EDIT COPY
+[2024.12.21-13.00.10:583][270]Cmd: EDIT PASTE
+[2024.12.21-13.00.30:630][322]Cmd: TRANSACTION UNDO
+[2024.12.21-13.00.30:630][322]LogEditorTransaction: Undo Rotate Elements
+[2024.12.21-13.02.27:762][408]Cmd: EDIT COPY
+[2024.12.21-13.02.28:018][412]Cmd: EDIT PASTE
+[2024.12.21-13.02.37:834][867]Cmd: EDIT COPY
+[2024.12.21-13.02.38:044][880]Cmd: EDIT PASTE
+[2024.12.21-13.03.26:894][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.12.21-13.03.26:900][867]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/0B/QPS87CPI30IVIET6GJLUUN_Auto0
+[2024.12.21-13.03.26:900][867]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/QPS87CPI30IVIET6GJLUUN_Auto0BAB2DF694B5FF95AFBBAA08D74A61AA8.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/0B/QPS87CPI30IVIET6GJLUUN_Auto0.uasset'
+[2024.12.21-13.03.26:902][867]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/0W/R38F830K37X359QXBHSZ47_Auto0
+[2024.12.21-13.03.26:902][867]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/R38F830K37X359QXBHSZ47_Auto081FFA4324C9D210DCCD5E7B477B383A0.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/0W/R38F830K37X359QXBHSZ47_Auto0.uasset'
+[2024.12.21-13.03.26:903][867]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/I5/7W9ED556NET6FSH41ZB7SP_Auto0
+[2024.12.21-13.03.26:904][867]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/7W9ED556NET6FSH41ZB7SP_Auto0E775E85444937FE30002A884A220A794.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/I5/7W9ED556NET6FSH41ZB7SP_Auto0.uasset'
+[2024.12.21-13.03.26:906][867]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/G4/6K7J9Y61M3X9VRFIYQ4G4C_Auto0
+[2024.12.21-13.03.26:906][867]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/6K7J9Y61M3X9VRFIYQ4G4C_Auto0BF50EDF247215C09B35718B656E6471D.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/G4/6K7J9Y61M3X9VRFIYQ4G4C_Auto0.uasset'
+[2024.12.21-13.03.26:909][867]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/AR/S194V1QC6FR5GLD7D1XRNX_Auto0
+[2024.12.21-13.03.26:909][867]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/S194V1QC6FR5GLD7D1XRNX_Auto0BFD40A8342D988A49F9EA391FDFC4E5A.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/AR/S194V1QC6FR5GLD7D1XRNX_Auto0.uasset'
+[2024.12.21-13.03.26:911][867]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/31/XXZB1CDYWN22BEW9ZO0KPR_Auto0
+[2024.12.21-13.03.26:911][867]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/XXZB1CDYWN22BEW9ZO0KPR_Auto0CC8198EA4B04216B453E25B956A42B46.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/31/XXZB1CDYWN22BEW9ZO0KPR_Auto0.uasset'
+[2024.12.21-13.03.26:912][867]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/VY/S3RXU498QY5UN2IMLUUWHF_Auto0
+[2024.12.21-13.03.26:912][867]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/S3RXU498QY5UN2IMLUUWHF_Auto09ED573B64DAAB8F799F68697FA15AFE9.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/VY/S3RXU498QY5UN2IMLUUWHF_Auto0.uasset'
+[2024.12.21-13.03.26:914][867]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/LB/MHDRLIG1TRI9GFYHKGQO2R_Auto0
+[2024.12.21-13.03.26:914][867]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/MHDRLIG1TRI9GFYHKGQO2R_Auto036B8FF3F43CA81539FE065A83C33AF37.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/LB/MHDRLIG1TRI9GFYHKGQO2R_Auto0.uasset'
+[2024.12.21-13.03.26:916][867]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/R6/M64Y2Q9BCFP3HUV0B7CI8P_Auto0
+[2024.12.21-13.03.26:917][867]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/M64Y2Q9BCFP3HUV0B7CI8P_Auto0CFB4BDCE4CD31F1C4D1F228EE57F8DED.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/R6/M64Y2Q9BCFP3HUV0B7CI8P_Auto0.uasset'
+[2024.12.21-13.03.26:919][867]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/2Q/YD4ZMHJ89PVVAR94ZMZIVS_Auto0
+[2024.12.21-13.03.26:919][867]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/YD4ZMHJ89PVVAR94ZMZIVS_Auto0B6EFFF284EA6843F48DB0E97664D6628.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/2Q/YD4ZMHJ89PVVAR94ZMZIVS_Auto0.uasset'
+[2024.12.21-13.03.26:921][867]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/M1/6SOZLAO4HVMEW966VPY03C_Auto0
+[2024.12.21-13.03.26:921][867]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/6SOZLAO4HVMEW966VPY03C_Auto0148EA789406B310CAB7D5E8852678852.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/M1/6SOZLAO4HVMEW966VPY03C_Auto0.uasset'
+[2024.12.21-13.03.26:923][867]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.041
+[2024.12.21-13.03.26:923][867]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.041
+[2024.12.21-13.05.28:705][731]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 28074.126953
+[2024.12.21-13.05.28:901][734]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-13.05.28:901][734]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 28074.257812, Update Interval: 342.397522
+[2024.12.21-13.08.25:310][278]Cmd: EDIT COPY
+[2024.12.21-13.09.19:101][443]Cmd: EDIT COPY
+[2024.12.21-13.09.19:427][448]Cmd: EDIT PASTE
+[2024.12.21-13.11.23:722][781]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: 12f...3e3
+[2024.12.21-13.11.23:722][781]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.95 RefreshExpires: 1.554e+07
+[2024.12.21-13.11.23:979][785]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 12f...3e3 Access[Expires: 2024.12.21-15.11.22 Remaining: 7200.64] Refresh[Expires: 2025-06-19T11:13:01.663Z Remaining: 15544899.66] State: Valid
+[2024.12.21-13.11.56:647][274]Cmd: TRANSACTION UNDO
+[2024.12.21-13.11.56:648][274]LogEditorTransaction: Undo Set Item Visibility
+[2024.12.21-13.11.56:892][274]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 28461.953125
+[2024.12.21-13.11.57:023][276]Cmd: TRANSACTION UNDO
+[2024.12.21-13.11.57:023][276]LogEditorTransaction: Undo Set Item Visibility
+[2024.12.21-13.11.57:168][277]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-13.11.57:168][277]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 28462.218750, Update Interval: 352.400879
+[2024.12.21-13.11.57:605][286]Cmd: TRANSACTION UNDO
+[2024.12.21-13.11.57:605][286]LogEditorTransaction: Undo Set Item Visibility
+[2024.12.21-13.11.58:145][294]Cmd: TRANSACTION UNDO
+[2024.12.21-13.11.58:145][294]LogEditorTransaction: Undo Set Item Visibility
+[2024.12.21-13.11.58:557][300]Cmd: TRANSACTION UNDO
+[2024.12.21-13.11.58:557][300]LogEditorTransaction: Undo Set Item Visibility
+[2024.12.21-13.11.58:829][304]Cmd: TRANSACTION UNDO
+[2024.12.21-13.11.58:829][304]LogEditorTransaction: Undo Set Item Visibility
+[2024.12.21-13.11.59:100][308]Cmd: TRANSACTION UNDO
+[2024.12.21-13.11.59:101][308]LogEditorTransaction: Undo Set Item Visibility
+[2024.12.21-13.11.59:716][316]Cmd: TRANSACTION UNDO
+[2024.12.21-13.11.59:716][316]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.11.59:922][319]Cmd: TRANSACTION UNDO
+[2024.12.21-13.11.59:922][319]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.12.00:197][323]Cmd: TRANSACTION UNDO
+[2024.12.21-13.12.00:197][323]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.12.00:581][325]Cmd: TRANSACTION UNDO
+[2024.12.21-13.12.00:581][325]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.12.00:715][326]Cmd: TRANSACTION UNDO
+[2024.12.21-13.12.00:715][326]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.12.00:928][328]Cmd: TRANSACTION UNDO
+[2024.12.21-13.12.00:928][328]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.12.01:126][333]Cmd: TRANSACTION UNDO
+[2024.12.21-13.12.01:126][333]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.12.01:331][336]Cmd: TRANSACTION UNDO
+[2024.12.21-13.12.01:331][336]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.12.01:538][339]Cmd: TRANSACTION UNDO
+[2024.12.21-13.12.01:538][339]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.12.01:793][342]Cmd: TRANSACTION UNDO
+[2024.12.21-13.12.01:793][342]LogEditorTransaction: Undo Paste
+[2024.12.21-13.12.01:982][343]Cmd: TRANSACTION UNDO
+[2024.12.21-13.12.01:982][343]LogEditorTransaction: Undo Clicking on Elements
+[2024.12.21-13.12.02:286][348]Cmd: TRANSACTION UNDO
+[2024.12.21-13.12.02:286][348]LogEditorTransaction: Undo Clicking on Elements
+[2024.12.21-13.12.02:565][351]Cmd: TRANSACTION UNDO
+[2024.12.21-13.12.02:566][351]LogEditorTransaction: Undo Clicking on Elements
+[2024.12.21-13.12.02:874][355]Cmd: TRANSACTION UNDO
+[2024.12.21-13.12.02:874][355]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.12.03:151][359]Cmd: TRANSACTION UNDO
+[2024.12.21-13.12.03:152][359]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.12.03:424][363]Cmd: TRANSACTION UNDO
+[2024.12.21-13.12.03:424][363]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.12.03:747][367]Cmd: TRANSACTION UNDO
+[2024.12.21-13.12.03:747][367]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.12.04:018][371]Cmd: TRANSACTION UNDO
+[2024.12.21-13.12.04:018][371]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.12.04:394][373]Cmd: TRANSACTION UNDO
+[2024.12.21-13.12.04:394][373]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.12.04:688][376]Cmd: TRANSACTION UNDO
+[2024.12.21-13.12.04:688][376]LogEditorTransaction: Undo Clicking on Elements
+[2024.12.21-13.12.06:448][401]LogShaderCompilers: Display: ================================================
+[2024.12.21-13.12.06:448][401]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Total job queries 225, among them cache hits 37 (16.44%), DDC hits 184 (81.78%), Duplicates 3 (1.33%)
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Tracking 185 distinct input hashes that result in 161 distinct outputs (87.03%)
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: RAM used: 123.86 KiB of 819.20 MiB budget. Usage: 0.01%
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Shaders Compiled: 1
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Jobs assigned 1, completed 1 (100%)
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.06 s
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Job execution time: average 6.07 s, max 6.07 s
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Job life time (pending + execution): average 6.13 s, max 6.13
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Shader code size: average 11.055 KiB, min 11.055 KiB, max 11.055 KiB
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.13 s
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Jobs were issued in 1 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Average processing rate: 0.16 jobs/sec
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Total thread time: 1.201 s
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Total thread preprocess time: 4.754 s
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Percentage time preprocessing: 395.88%
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Effective parallelization: 0.20 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 1.20 sec, max 1.20 sec, min 1.20 sec)
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 100.00% of total time (compiled    1 times, average 1.20 sec, max 1.20 sec, min 1.20 sec)
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display:                                                 FLumenCardPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: === Material stats ===
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Materials Translated:    136
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Material Translation Only: 0.05 s (66%)
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (4%)
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: Material Cache Hits: 53 (39%)
+[2024.12.21-13.12.06:449][401]LogShaderCompilers: Display: ================================================
+[2024.12.21-13.12.07:507][416]Cmd: EDIT COPY
+[2024.12.21-13.12.08:090][421]Cmd: EDIT PASTE
+[2024.12.21-13.12.51:927][717]Cmd: TRANSACTION UNDO
+[2024.12.21-13.12.51:927][717]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.12.56:721][782]Cmd: EDIT COPY
+[2024.12.21-13.12.57:050][787]Cmd: EDIT PASTE
+[2024.12.21-13.13.02:692][855]Cmd: TRANSACTION UNDO
+[2024.12.21-13.13.02:692][855]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.13.03:264][859]Cmd: TRANSACTION UNDO
+[2024.12.21-13.13.03:264][859]LogEditorTransaction: Undo Paste
+[2024.12.21-13.13.03:736][866]Cmd: TRANSACTION UNDO
+[2024.12.21-13.13.03:736][866]LogEditorTransaction: Undo Clicking on Elements
+[2024.12.21-13.13.04:340][874]Cmd: TRANSACTION UNDO
+[2024.12.21-13.13.04:340][874]LogEditorTransaction: Undo Clicking on Elements
+[2024.12.21-13.13.04:996][883]Cmd: TRANSACTION UNDO
+[2024.12.21-13.13.04:996][883]LogEditorTransaction: Undo Clicking on Elements
+[2024.12.21-13.13.05:735][893]Cmd: TRANSACTION UNDO
+[2024.12.21-13.13.05:735][893]LogEditorTransaction: Undo Clicking on Elements
+[2024.12.21-13.13.06:508][900]Cmd: TRANSACTION UNDO
+[2024.12.21-13.13.06:508][900]LogEditorTransaction: Undo Clicking on Elements
+[2024.12.21-13.13.07:296][911]Cmd: TRANSACTION UNDO
+[2024.12.21-13.13.07:296][911]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.13.08:645][930]Cmd: TRANSACTION UNDO
+[2024.12.21-13.13.08:645][930]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.13.09:723][945]Cmd: TRANSACTION UNDO
+[2024.12.21-13.13.09:723][945]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.13.11:174][965]Cmd: TRANSACTION UNDO
+[2024.12.21-13.13.11:174][965]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.13.20:432][ 92]Cmd: EDIT COPY
+[2024.12.21-13.13.21:234][103]Cmd: EDIT PASTE
+[2024.12.21-13.14.18:335][162]Cmd: EDIT COPY
+[2024.12.21-13.14.18:721][167]Cmd: EDIT PASTE
+[2024.12.21-13.15.06:816][429]Cmd: DELETE
+[2024.12.21-13.15.06:816][429]Cmd: ACTOR DELETE
+[2024.12.21-13.15.06:816][429]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'ACTOR'. 
+[2024.12.21-13.15.06:820][429]LogEditorActor: Deleted Actor: PointLight
+[2024.12.21-13.15.06:836][429]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NiagaraActor_UAID_A8A159D6F12CEA3A02_1388248020 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/LJ/T33LQJTWMNXBKRAZYGV7AC.PackageMetaData in its package
+[2024.12.21-13.15.06:836][429]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NiagaraActor_UAID_A8A159D6F12CEA3A02_1170628018 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/RL/BPYQ51RSHX5GA7MFG7IUPP.PackageMetaData in its package
+[2024.12.21-13.15.06:836][429]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.PointLight_UAID_A8A159D6F12CEA3A02_1170625017 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/8X/C91FQCH71BSSXUQFSKA995.PackageMetaData in its package
+[2024.12.21-13.15.06:886][429]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.12.21-13.15.06:893][429]LogEditorActor: Deleted 1 Actors (0.077 secs)
+[2024.12.21-13.15.06:911][429]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.12.21-13.15.16:635][563]Cmd: DELETE
+[2024.12.21-13.15.16:636][563]Cmd: ACTOR DELETE
+[2024.12.21-13.15.16:640][563]LogEditorActor: Deleted Actor: PointLight
+[2024.12.21-13.15.16:654][563]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.12.21-13.15.16:658][563]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2024.12.21-13.16.01:092][183]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.12.21-13.16.01:097][183]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/0B/QPS87CPI30IVIET6GJLUUN_Auto1
+[2024.12.21-13.16.01:097][183]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/QPS87CPI30IVIET6GJLUUN_Auto14058DFA04F788095C26A19B726114FA3.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/0B/QPS87CPI30IVIET6GJLUUN_Auto1.uasset'
+[2024.12.21-13.16.01:098][183]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/0W/R38F830K37X359QXBHSZ47_Auto1
+[2024.12.21-13.16.01:098][183]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/R38F830K37X359QXBHSZ47_Auto1027FCCCC497208B2B5B1DA8659464D37.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/0W/R38F830K37X359QXBHSZ47_Auto1.uasset'
+[2024.12.21-13.16.01:100][183]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/I5/7W9ED556NET6FSH41ZB7SP_Auto1
+[2024.12.21-13.16.01:100][183]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/7W9ED556NET6FSH41ZB7SP_Auto1AD25CAB54000F1324EC4578AB7EF8C91.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/I5/7W9ED556NET6FSH41ZB7SP_Auto1.uasset'
+[2024.12.21-13.16.01:102][183]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/G4/6K7J9Y61M3X9VRFIYQ4G4C_Auto1
+[2024.12.21-13.16.01:102][183]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/6K7J9Y61M3X9VRFIYQ4G4C_Auto193B61330467EE02456069AAF51E4DBAF.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/G4/6K7J9Y61M3X9VRFIYQ4G4C_Auto1.uasset'
+[2024.12.21-13.16.01:104][183]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/AR/S194V1QC6FR5GLD7D1XRNX_Auto1
+[2024.12.21-13.16.01:104][183]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/S194V1QC6FR5GLD7D1XRNX_Auto1A7D6B4244E16B1A1B1E8BC95D456DD99.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/AR/S194V1QC6FR5GLD7D1XRNX_Auto1.uasset'
+[2024.12.21-13.16.01:107][183]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/31/XXZB1CDYWN22BEW9ZO0KPR_Auto1
+[2024.12.21-13.16.01:107][183]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/XXZB1CDYWN22BEW9ZO0KPR_Auto10DCC1D4A4E68C50DB6E0B38E1E33F6ED.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/31/XXZB1CDYWN22BEW9ZO0KPR_Auto1.uasset'
+[2024.12.21-13.16.01:109][183]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/VY/S3RXU498QY5UN2IMLUUWHF_Auto1
+[2024.12.21-13.16.01:109][183]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/S3RXU498QY5UN2IMLUUWHF_Auto19C19B8904D3E3CA60300968E5196994B.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/VY/S3RXU498QY5UN2IMLUUWHF_Auto1.uasset'
+[2024.12.21-13.16.01:111][183]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/LB/MHDRLIG1TRI9GFYHKGQO2R_Auto1
+[2024.12.21-13.16.01:111][183]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/MHDRLIG1TRI9GFYHKGQO2R_Auto130DD250F468D2466118342A7A1B0F577.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/LB/MHDRLIG1TRI9GFYHKGQO2R_Auto1.uasset'
+[2024.12.21-13.16.01:113][183]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/R6/M64Y2Q9BCFP3HUV0B7CI8P_Auto1
+[2024.12.21-13.16.01:113][183]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/M64Y2Q9BCFP3HUV0B7CI8P_Auto1EAEDB9BD4CB4244FAED9A2807A3A6407.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/R6/M64Y2Q9BCFP3HUV0B7CI8P_Auto1.uasset'
+[2024.12.21-13.16.01:115][183]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/2Q/YD4ZMHJ89PVVAR94ZMZIVS_Auto1
+[2024.12.21-13.16.01:115][183]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/YD4ZMHJ89PVVAR94ZMZIVS_Auto1ED66E7184EC9F779400D4DA5C7087A97.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/2Q/YD4ZMHJ89PVVAR94ZMZIVS_Auto1.uasset'
+[2024.12.21-13.16.01:117][183]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/M1/6SOZLAO4HVMEW966VPY03C_Auto1
+[2024.12.21-13.16.01:117][183]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/6SOZLAO4HVMEW966VPY03C_Auto1EF4DD8CF46150C5C528A00A54D24699C.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/M1/6SOZLAO4HVMEW966VPY03C_Auto1.uasset'
+[2024.12.21-13.16.01:119][183]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/BL/2RRYJQV4XWIF3QRTEIO8EC_Auto1
+[2024.12.21-13.16.01:119][183]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/2RRYJQV4XWIF3QRTEIO8EC_Auto14BA60DB949D297366B9D6884861A309D.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/BL/2RRYJQV4XWIF3QRTEIO8EC_Auto1.uasset'
+[2024.12.21-13.16.01:122][183]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/I2/HCW9C92RA5WT0TQ16I3P0S_Auto1
+[2024.12.21-13.16.01:123][183]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/HCW9C92RA5WT0TQ16I3P0S_Auto183DB732A48ED07AECAEBFC9309702718.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/I2/HCW9C92RA5WT0TQ16I3P0S_Auto1.uasset'
+[2024.12.21-13.16.01:126][183]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/US/05JD9QSTUVCMVIPE8KHCUO_Auto1
+[2024.12.21-13.16.01:126][183]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/05JD9QSTUVCMVIPE8KHCUO_Auto15E773FF4428039D4A5ECA38414B349E0.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/US/05JD9QSTUVCMVIPE8KHCUO_Auto1.uasset'
+[2024.12.21-13.16.01:128][183]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/71/SS1UPDLUF7BTOEU1LFD0G0_Auto1
+[2024.12.21-13.16.01:128][183]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/SS1UPDLUF7BTOEU1LFD0G0_Auto157CC7A524E469CA1CF5A7F977D798177.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/71/SS1UPDLUF7BTOEU1LFD0G0_Auto1.uasset'
+[2024.12.21-13.16.01:129][183]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.048
+[2024.12.21-13.16.01:129][183]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.048
+[2024.12.21-13.16.02:833][210]Cmd: EDIT COPY
+[2024.12.21-13.16.03:277][216]Cmd: EDIT PASTE
+[2024.12.21-13.17.00:558][475]Cmd: EDIT COPY
+[2024.12.21-13.17.00:988][482]Cmd: EDIT PASTE
+[2024.12.21-13.18.44:530][411]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 28870.101562
+[2024.12.21-13.18.44:760][414]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-13.18.44:760][414]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 28870.269531, Update Interval: 310.395203
+[2024.12.21-13.19.36:698][210]LogDerivedDataCache: C:/Users/NADIA/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.12.21-13.22.00:943][350]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.21-13.22.00:956][350]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.21-13.22.00:956][350]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.12.21-13.22.00:967][350]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 11.489 ms (total: 147.624 ms)
+[2024.12.21-13.22.00:968][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.21-13.22.00:968][350]LogPlayLevel: Display: Creating online subsystem for client :Context_20
+[2024.12.21-13.22.00:971][350]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.12.21-13.22.01:010][351]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.12.21-13.22.01:029][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019282s)
+[2024.12.21-13.22.01:029][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.019410s)
+[2024.12.21-13.22.01:047][351]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.12.21-13.22.01:051][351]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2024.12.21-13.22.01:054][351]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.21-13.22.01:054][351]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.21-13.22.01:054][351]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.21-13.22.01:054][351]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.21-13.22.01:060][351]LogWorldPartition: Display: WorldPartition initialize took 5.806 ms (total: 2.28 sec)
+[2024.12.21-13.22.01:060][351]LogPlayLevel: PIE: World Init took: (0.009326s)
+[2024.12.21-13.22.01:061][351]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.12.21-13.22.01:062][351]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.21-13.22.01:062][351]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.21-13.22.01:062][351]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.21-13.22.01:062][351]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.21-13.22.01:062][351]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.12.21-13.22.01:062][351]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.21-13.22.01:062][351]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.12.21-13.22.01:062][351]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.21-13.22.01:062][351]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.21-13.22.01:062][351]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.21-13.22.01:062][351]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.21-13.22.01:065][351]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.21-13.22.01:086][351]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2024.12.21-13.22.01:087][351]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.21-13.22.01:087][351]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.21-13.22.01:087][351]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.21-13.22.01:088][351]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.12.21-13.22.01:088][351]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.12.21-13.22.01:091][351]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.12.21-13.22.01:091][351]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.12.21-13.22.01:091][351]LogInit: FAudioDevice initialized with ID 19.
+[2024.12.21-13.22.01:091][351]LogAudio: Display: Audio Device (ID: 19) registered with world 'FirstPersonMap'.
+[2024.12.21-13.22.01:091][351]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.12.21-13.22.01:194][351]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.12.21-13.22.01:205][351]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.12.21-08.22.01
+[2024.12.21-13.22.01:207][351]LogWorld: Bringing up level for play took: 0.012643
+[2024.12.21-13.22.01:217][351]PIE: Server logged in
+[2024.12.21-13.22.01:220][351]PIE: Play in editor total start time 0.264 seconds.
+[2024.12.21-13.22.43:419][947]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.21-13.22.43:419][947]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.12.21-13.22.43:419][947]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.21-13.22.43:422][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.21-13.22.43:422][947]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2024.12.21-13.22.43:517][947]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.21-13.22.43:522][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.21-13.22.43:541][947]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.21-13.22.43:542][947]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.12.21-13.22.43:542][947]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.12.21-13.22.43:545][947]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.12.21-13.22.43:557][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.12.21-13.22.43:654][948]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.12.21-13.23.06:987][258]Cmd: EDIT COPY
+[2024.12.21-13.23.07:240][262]Cmd: EDIT PASTE
+[2024.12.21-13.23.19:736][398]Cmd: TRANSACTION UNDO
+[2024.12.21-13.23.19:736][398]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.23.20:246][402]Cmd: TRANSACTION UNDO
+[2024.12.21-13.23.20:246][402]LogEditorTransaction: Undo Move Elements
+[2024.12.21-13.24.03:255][964]Cmd: EDIT COPY
+[2024.12.21-13.24.03:505][968]Cmd: EDIT PASTE
+[2024.12.21-13.24.48:322][538]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 29233.716797
+[2024.12.21-13.24.48:511][541]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-13.24.48:511][541]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 29233.843750, Update Interval: 357.932678
+[2024.12.21-13.25.06:924][807]Cmd: EDIT COPY
+[2024.12.21-13.25.07:230][811]Cmd: EDIT PASTE
+[2024.12.21-13.25.20:612][966]Cmd: EDIT COPY
+[2024.12.21-13.25.20:877][970]Cmd: EDIT PASTE
+[2024.12.21-13.26.12:774][640]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.21-13.26.12:784][640]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.21-13.26.12:784][640]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.12.21-13.26.12:798][640]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 13.701 ms (total: 161.325 ms)
+[2024.12.21-13.26.12:798][640]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.21-13.26.12:798][640]LogPlayLevel: Display: Creating online subsystem for client :Context_21
+[2024.12.21-13.26.12:802][640]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.12.21-13.26.12:843][641]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.12.21-13.26.12:860][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016960s)
+[2024.12.21-13.26.12:861][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.017071s)
+[2024.12.21-13.26.12:879][641]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.12.21-13.26.12:886][641]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2024.12.21-13.26.12:888][641]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.21-13.26.12:888][641]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.21-13.26.12:888][641]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.21-13.26.12:888][641]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.21-13.26.12:893][641]LogWorldPartition: Display: WorldPartition initialize took 5.119 ms (total: 2.29 sec)
+[2024.12.21-13.26.12:893][641]LogPlayLevel: PIE: World Init took: (0.007343s)
+[2024.12.21-13.26.12:894][641]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.12.21-13.26.12:895][641]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.21-13.26.12:895][641]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.21-13.26.12:895][641]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.21-13.26.12:895][641]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.21-13.26.12:895][641]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.12.21-13.26.12:895][641]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.21-13.26.12:895][641]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.12.21-13.26.12:895][641]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.21-13.26.12:895][641]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.21-13.26.12:895][641]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.21-13.26.12:895][641]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.21-13.26.12:898][641]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.21-13.26.12:918][641]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2024.12.21-13.26.12:918][641]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.21-13.26.12:918][641]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.21-13.26.12:918][641]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.21-13.26.12:919][641]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.12.21-13.26.12:919][641]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.12.21-13.26.12:922][641]LogInit: FAudioDevice initialized with ID 20.
+[2024.12.21-13.26.12:923][641]LogAudio: Display: Audio Device (ID: 20) registered with world 'FirstPersonMap'.
+[2024.12.21-13.26.12:923][641]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.12.21-13.26.12:923][641]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.12.21-13.26.12:923][641]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.12.21-13.26.12:987][641]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.12.21-13.26.12:997][641]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.12.21-08.26.12
+[2024.12.21-13.26.12:999][641]LogWorld: Bringing up level for play took: 0.010902
+[2024.12.21-13.26.13:003][641]PIE: Server logged in
+[2024.12.21-13.26.13:005][641]PIE: Play in editor total start time 0.221 seconds.
+[2024.12.21-13.27.01:669][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.21-13.27.01:669][297]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.12.21-13.27.01:669][297]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.21-13.27.01:672][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.21-13.27.01:672][297]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2024.12.21-13.27.01:781][297]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.21-13.27.01:786][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.21-13.27.01:805][297]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.21-13.27.01:805][297]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.12.21-13.27.01:805][297]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.12.21-13.27.01:810][297]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.12.21-13.27.01:817][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.21-13.27.01:821][297]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.12.21-13.27.01:967][298]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.12.21-13.27.31:261][682]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.21-13.27.31:270][682]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.21-13.27.31:270][682]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.12.21-13.27.31:283][682]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 12.497 ms (total: 173.822 ms)
+[2024.12.21-13.27.31:283][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.21-13.27.31:283][682]LogPlayLevel: Display: Creating online subsystem for client :Context_22
+[2024.12.21-13.27.31:287][682]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.12.21-13.27.31:328][683]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.12.21-13.27.31:343][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015369s)
+[2024.12.21-13.27.31:343][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.015457s)
+[2024.12.21-13.27.31:357][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.12.21-13.27.31:363][683]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2024.12.21-13.27.31:365][683]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.21-13.27.31:365][683]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.21-13.27.31:365][683]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.21-13.27.31:365][683]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.21-13.27.31:370][683]LogWorldPartition: Display: WorldPartition initialize took 5.239 ms (total: 2.29 sec)
+[2024.12.21-13.27.31:370][683]LogPlayLevel: PIE: World Init took: (0.007647s)
+[2024.12.21-13.27.31:371][683]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.12.21-13.27.31:371][683]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.21-13.27.31:371][683]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.21-13.27.31:371][683]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.21-13.27.31:371][683]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.21-13.27.31:371][683]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.12.21-13.27.31:371][683]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.21-13.27.31:371][683]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.12.21-13.27.31:371][683]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.21-13.27.31:371][683]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.21-13.27.31:371][683]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.21-13.27.31:371][683]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.21-13.27.31:373][683]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.21-13.27.31:390][683]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2024.12.21-13.27.31:390][683]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.21-13.27.31:390][683]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.21-13.27.31:391][683]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.21-13.27.31:392][683]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.12.21-13.27.31:392][683]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.12.21-13.27.31:397][683]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.12.21-13.27.31:397][683]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.12.21-13.27.31:397][683]LogInit: FAudioDevice initialized with ID 21.
+[2024.12.21-13.27.31:397][683]LogAudio: Display: Audio Device (ID: 21) registered with world 'FirstPersonMap'.
+[2024.12.21-13.27.31:397][683]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.12.21-13.27.31:466][683]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.12.21-13.27.31:476][683]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.12.21-08.27.31
+[2024.12.21-13.27.31:477][683]LogWorld: Bringing up level for play took: 0.010949
+[2024.12.21-13.27.31:482][683]PIE: Server logged in
+[2024.12.21-13.27.31:483][683]PIE: Play in editor total start time 0.213 seconds.
+[2024.12.21-13.27.52:371][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.21-13.27.52:371][960]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.12.21-13.27.52:371][960]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.21-13.27.52:373][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.21-13.27.52:373][960]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2024.12.21-13.27.52:458][960]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.21-13.27.52:465][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.21-13.27.52:483][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.21-13.27.52:484][960]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.12.21-13.27.52:484][960]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.12.21-13.27.52:486][960]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.12.21-13.27.52:497][960]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.12.21-13.27.52:638][961]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.12.21-13.27.58:498][ 40]Cmd: DELETE
+[2024.12.21-13.27.58:499][ 40]Cmd: ACTOR DELETE
+[2024.12.21-13.27.58:504][ 40]LogEditorActor: Deleted Actor: PointLight
+[2024.12.21-13.27.58:522][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.12.21-13.27.58:524][ 40]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2024.12.21-13.28.05:982][146]Cmd: DELETE
+[2024.12.21-13.28.05:982][146]Cmd: ACTOR DELETE
+[2024.12.21-13.28.05:986][146]LogEditorActor: Deleted Actor: PointLight
+[2024.12.21-13.28.06:002][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.12.21-13.28.06:005][146]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2024.12.21-13.31.18:675][847]LogSlate: Window 'Color Picker' being destroyed
+[2024.12.21-13.31.19:652][864]Cmd: TRANSACTION UNDO
+[2024.12.21-13.31.19:652][864]LogEditorTransaction: Undo Edit Rayleigh Scattering
+[2024.12.21-13.31.20:398][874]Cmd: TRANSACTION UNDO
+[2024.12.21-13.31.20:398][874]LogEditorTransaction: Undo Clicking on Actors
+[2024.12.21-13.31.29:559][  4]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 29634.910156
+[2024.12.21-13.31.29:754][  7]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-13.31.29:754][  7]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 29635.041016, Update Interval: 348.390747
+[2024.12.21-13.32.25:961][790]LogSlate: Window 'Color Picker' being destroyed
+[2024.12.21-13.32.30:551][856]Cmd: TRANSACTION UNDO
+[2024.12.21-13.32.30:551][856]LogEditorTransaction: Undo Edit Ground Albedo
+[2024.12.21-13.33.18:757][528]LogSlate: Window 'Color Picker' being destroyed
+[2024.12.21-13.33.50:623][974]LogSlate: Window 'Color Picker' being destroyed
+[2024.12.21-13.33.52:434][  2]Cmd: TRANSACTION UNDO
+[2024.12.21-13.33.52:434][  2]LogEditorTransaction: Undo Clicking on Actors
+[2024.12.21-13.33.53:309][ 13]Cmd: TRANSACTION UNDO
+[2024.12.21-13.33.53:309][ 13]LogEditorTransaction: Undo Edit Sky Atmosphere Ambient Contribution Color Scale
+[2024.12.21-13.33.55:960][ 50]Cmd: TRANSACTION UNDO
+[2024.12.21-13.33.55:960][ 50]LogEditorTransaction: Undo Clicking on Actors
+[2024.12.21-13.34.02:066][134]Cmd: TRANSACTION UNDO
+[2024.12.21-13.34.02:066][134]LogEditorTransaction: Undo Clicking on Actors
+[2024.12.21-13.34.27:482][480]Cmd: DELETE
+[2024.12.21-13.34.27:482][480]Cmd: ACTOR DELETE
+[2024.12.21-13.34.27:487][480]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.21-13.34.27:503][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.12.21-13.34.27:511][480]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2024.12.21-13.35.02:864][  9]Cmd: EDIT COPY
+[2024.12.21-13.35.03:615][ 20]Cmd: EDIT PASTE
+[2024.12.21-13.35.59:542][111]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.21-13.35.59:552][111]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.21-13.35.59:552][111]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.12.21-13.35.59:561][111]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 8.833 ms (total: 182.655 ms)
+[2024.12.21-13.35.59:561][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.21-13.35.59:561][111]LogPlayLevel: Display: Creating online subsystem for client :Context_23
+[2024.12.21-13.35.59:564][111]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.12.21-13.35.59:605][112]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.12.21-13.35.59:621][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015383s)
+[2024.12.21-13.35.59:621][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.015452s)
+[2024.12.21-13.35.59:637][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.12.21-13.35.59:643][112]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2024.12.21-13.35.59:645][112]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.21-13.35.59:645][112]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.21-13.35.59:645][112]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.21-13.35.59:645][112]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.21-13.35.59:650][112]LogWorldPartition: Display: WorldPartition initialize took 5.226 ms (total: 2.30 sec)
+[2024.12.21-13.35.59:650][112]LogPlayLevel: PIE: World Init took: (0.006973s)
+[2024.12.21-13.35.59:651][112]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.12.21-13.35.59:651][112]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.21-13.35.59:651][112]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.21-13.35.59:651][112]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.21-13.35.59:651][112]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.21-13.35.59:651][112]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.12.21-13.35.59:651][112]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.21-13.35.59:651][112]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.12.21-13.35.59:651][112]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.21-13.35.59:651][112]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.21-13.35.59:651][112]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.21-13.35.59:651][112]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.21-13.35.59:654][112]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.21-13.35.59:674][112]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2024.12.21-13.35.59:675][112]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.21-13.35.59:675][112]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.21-13.35.59:675][112]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.21-13.35.59:676][112]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.12.21-13.35.59:676][112]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.12.21-13.35.59:679][112]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.12.21-13.35.59:679][112]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.12.21-13.35.59:679][112]LogInit: FAudioDevice initialized with ID 22.
+[2024.12.21-13.35.59:679][112]LogAudio: Display: Audio Device (ID: 22) registered with world 'FirstPersonMap'.
+[2024.12.21-13.35.59:680][112]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.12.21-13.35.59:784][112]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.12.21-13.35.59:793][112]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.12.21-08.35.59
+[2024.12.21-13.35.59:795][112]LogWorld: Bringing up level for play took: 0.010920
+[2024.12.21-13.35.59:800][112]PIE: Server logged in
+[2024.12.21-13.35.59:801][112]PIE: Play in editor total start time 0.249 seconds.
+[2024.12.21-13.36.42:842][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.21-13.36.42:842][721]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.12.21-13.36.42:843][721]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.21-13.36.42:845][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.21-13.36.42:845][721]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2024.12.21-13.36.42:941][721]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.21-13.36.42:947][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.21-13.36.42:965][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.21-13.36.42:966][721]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.12.21-13.36.42:966][721]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.12.21-13.36.42:969][721]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.12.21-13.36.42:980][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.12.21-13.36.43:113][722]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.12.21-13.37.07:936][814]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.12.21-13.37.07:940][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/6E/OMPZ2BA2LH3QTYG7BFQ3P9_Auto2
+[2024.12.21-13.37.07:940][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/OMPZ2BA2LH3QTYG7BFQ3P9_Auto28FC1B60E479ACD162C2884A52B6F37D1.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/6E/OMPZ2BA2LH3QTYG7BFQ3P9_Auto2.uasset'
+[2024.12.21-13.37.07:941][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/0B/QPS87CPI30IVIET6GJLUUN_Auto2
+[2024.12.21-13.37.07:941][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/QPS87CPI30IVIET6GJLUUN_Auto25D95FA2D4307BDAFFF438789BCE96935.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/0B/QPS87CPI30IVIET6GJLUUN_Auto2.uasset'
+[2024.12.21-13.37.07:943][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/0W/R38F830K37X359QXBHSZ47_Auto2
+[2024.12.21-13.37.07:943][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/R38F830K37X359QXBHSZ47_Auto20EF7517D411983D8B49B11A9F5352FE1.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/0W/R38F830K37X359QXBHSZ47_Auto2.uasset'
+[2024.12.21-13.37.07:945][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/I5/7W9ED556NET6FSH41ZB7SP_Auto2
+[2024.12.21-13.37.07:945][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/7W9ED556NET6FSH41ZB7SP_Auto2ED7133B845E9E727D060CFBF1CCCF82A.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/I5/7W9ED556NET6FSH41ZB7SP_Auto2.uasset'
+[2024.12.21-13.37.07:947][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/G4/6K7J9Y61M3X9VRFIYQ4G4C_Auto2
+[2024.12.21-13.37.07:947][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/6K7J9Y61M3X9VRFIYQ4G4C_Auto20881C3EF4D156CAF1F012DB5EDA377BF.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/G4/6K7J9Y61M3X9VRFIYQ4G4C_Auto2.uasset'
+[2024.12.21-13.37.07:949][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/AR/S194V1QC6FR5GLD7D1XRNX_Auto2
+[2024.12.21-13.37.07:949][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/S194V1QC6FR5GLD7D1XRNX_Auto2BA83C670483DF4D7BDF933B25F96687E.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/AR/S194V1QC6FR5GLD7D1XRNX_Auto2.uasset'
+[2024.12.21-13.37.07:951][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/31/XXZB1CDYWN22BEW9ZO0KPR_Auto2
+[2024.12.21-13.37.07:951][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/XXZB1CDYWN22BEW9ZO0KPR_Auto24F10506E444012049E5AF38D369042F9.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/31/XXZB1CDYWN22BEW9ZO0KPR_Auto2.uasset'
+[2024.12.21-13.37.07:953][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/VY/S3RXU498QY5UN2IMLUUWHF_Auto2
+[2024.12.21-13.37.07:953][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/S3RXU498QY5UN2IMLUUWHF_Auto2C631393144E839647F05759CF134D4DA.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/VY/S3RXU498QY5UN2IMLUUWHF_Auto2.uasset'
+[2024.12.21-13.37.07:955][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/LB/MHDRLIG1TRI9GFYHKGQO2R_Auto2
+[2024.12.21-13.37.07:955][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/MHDRLIG1TRI9GFYHKGQO2R_Auto276F4E1454BD6A45BF07057A394D88496.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/LB/MHDRLIG1TRI9GFYHKGQO2R_Auto2.uasset'
+[2024.12.21-13.37.07:957][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/R6/M64Y2Q9BCFP3HUV0B7CI8P_Auto2
+[2024.12.21-13.37.07:957][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/M64Y2Q9BCFP3HUV0B7CI8P_Auto2A4F38004444A8C3D236E218C44C2024E.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/R6/M64Y2Q9BCFP3HUV0B7CI8P_Auto2.uasset'
+[2024.12.21-13.37.07:959][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/BL/2RRYJQV4XWIF3QRTEIO8EC_Auto2
+[2024.12.21-13.37.07:959][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/2RRYJQV4XWIF3QRTEIO8EC_Auto2ED6CF4D744B1091AA41513A684711410.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/BL/2RRYJQV4XWIF3QRTEIO8EC_Auto2.uasset'
+[2024.12.21-13.37.07:961][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/I2/HCW9C92RA5WT0TQ16I3P0S_Auto2
+[2024.12.21-13.37.07:961][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/HCW9C92RA5WT0TQ16I3P0S_Auto2B0DCBF9D424165A88A14E9B840607F02.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/I2/HCW9C92RA5WT0TQ16I3P0S_Auto2.uasset'
+[2024.12.21-13.37.07:963][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/US/05JD9QSTUVCMVIPE8KHCUO_Auto2
+[2024.12.21-13.37.07:963][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/05JD9QSTUVCMVIPE8KHCUO_Auto28C647D444B4A422BF777FD8BA3767A14.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/US/05JD9QSTUVCMVIPE8KHCUO_Auto2.uasset'
+[2024.12.21-13.37.07:965][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/71/SS1UPDLUF7BTOEU1LFD0G0_Auto2
+[2024.12.21-13.37.07:965][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/SS1UPDLUF7BTOEU1LFD0G0_Auto246C1F84249EB5D8281E44F9FCEF8DDFB.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/71/SS1UPDLUF7BTOEU1LFD0G0_Auto2.uasset'
+[2024.12.21-13.37.07:967][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/W7/J2X5UF1ER6LGEUXB13GJ8O_Auto2
+[2024.12.21-13.37.07:967][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/J2X5UF1ER6LGEUXB13GJ8O_Auto24A973A154FDD0175616DAAA2F3798EBD.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/W7/J2X5UF1ER6LGEUXB13GJ8O_Auto2.uasset'
+[2024.12.21-13.37.07:970][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/4X/TA3JU95L3OPG17U1JJ8RF7_Auto2
+[2024.12.21-13.37.07:970][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/TA3JU95L3OPG17U1JJ8RF7_Auto2DAFD22184F936311C1E31AAC5F490DFF.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/4X/TA3JU95L3OPG17U1JJ8RF7_Auto2.uasset'
+[2024.12.21-13.37.07:972][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/NM/E9RSDR1BR1VRTTXRY6U8VZ_Auto2
+[2024.12.21-13.37.07:972][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/E9RSDR1BR1VRTTXRY6U8VZ_Auto2C02E2E8142BF7027DC4F70B92FA27D81.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/NM/E9RSDR1BR1VRTTXRY6U8VZ_Auto2.uasset'
+[2024.12.21-13.37.07:975][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/Q2/IFG0YVSDAHX7FSIJ9EM2YW_Auto2
+[2024.12.21-13.37.07:975][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/IFG0YVSDAHX7FSIJ9EM2YW_Auto2D5A50993455C7E7DB7CECABD6C7B7D5B.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/Q2/IFG0YVSDAHX7FSIJ9EM2YW_Auto2.uasset'
+[2024.12.21-13.37.07:977][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/98/H4BBXHHCPBPKT3SR7R3HR0_Auto2
+[2024.12.21-13.37.07:977][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/H4BBXHHCPBPKT3SR7R3HR0_Auto20F712BCD45B745195CC42ABF685F1387.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/98/H4BBXHHCPBPKT3SR7R3HR0_Auto2.uasset'
+[2024.12.21-13.37.07:979][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/B6/SXT2VGFSXSV2022WM0ZDGY_Auto2
+[2024.12.21-13.37.07:979][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/SXT2VGFSXSV2022WM0ZDGY_Auto2E887E0784A66EC0D2FABC0AB40EE838C.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/B6/SXT2VGFSXSV2022WM0ZDGY_Auto2.uasset'
+[2024.12.21-13.37.07:981][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/JF/4UH7ZO76KKYYLJXS35P2M8_Auto2
+[2024.12.21-13.37.07:981][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/4UH7ZO76KKYYLJXS35P2M8_Auto204B1206B41BFB0CE7A4FE8B270328807.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/JF/4UH7ZO76KKYYLJXS35P2M8_Auto2.uasset'
+[2024.12.21-13.37.07:984][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/GG/BC9I768PZBXYWNSONOXPLT_Auto2
+[2024.12.21-13.37.07:984][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/BC9I768PZBXYWNSONOXPLT_Auto2CC9D65C3459699CEE4389C88FE18527E.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/GG/BC9I768PZBXYWNSONOXPLT_Auto2.uasset'
+[2024.12.21-13.37.07:986][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/RV/BN6KZ38TVQEE5UOM8UUXAA_Auto2
+[2024.12.21-13.37.07:986][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/BN6KZ38TVQEE5UOM8UUXAA_Auto26326147D44504103A4796E9EA6999D47.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/RV/BN6KZ38TVQEE5UOM8UUXAA_Auto2.uasset'
+[2024.12.21-13.37.07:989][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/D6/AXAD4EDDJE1CFCZ9Z0CVHS_Auto2
+[2024.12.21-13.37.07:989][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/AXAD4EDDJE1CFCZ9Z0CVHS_Auto2C5D194724AF83707208A399925C916CA.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/D6/AXAD4EDDJE1CFCZ9Z0CVHS_Auto2.uasset'
+[2024.12.21-13.37.07:991][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/2G/KNLZFVOCKDFX84GY2FLHX7_Auto2
+[2024.12.21-13.37.07:991][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/KNLZFVOCKDFX84GY2FLHX7_Auto2C79D7E39418D3336958D8BAA9EA5A7A5.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/2G/KNLZFVOCKDFX84GY2FLHX7_Auto2.uasset'
+[2024.12.21-13.37.07:993][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/9W/4SWT0PPXO3LO1EAM4ZBPUI_Auto2
+[2024.12.21-13.37.07:993][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/4SWT0PPXO3LO1EAM4ZBPUI_Auto256DDB4BF481F46497DF9A9A470B3604D.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/9W/4SWT0PPXO3LO1EAM4ZBPUI_Auto2.uasset'
+[2024.12.21-13.37.07:995][814]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/2S/ZB2Y0EHD1HLG76FK1CMYOM_Auto2
+[2024.12.21-13.37.07:995][814]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/ZB2Y0EHD1HLG76FK1CMYOM_Auto21D6BA6B54A6F7A9FBF94B78741258D89.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/2S/ZB2Y0EHD1HLG76FK1CMYOM_Auto2.uasset'
+[2024.12.21-13.37.07:996][814]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.072
+[2024.12.21-13.37.07:997][814]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.072
+[2024.12.21-13.38.07:854][531]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 30033.052734
+[2024.12.21-13.38.08:072][534]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-13.38.08:072][534]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 30033.201172, Update Interval: 308.474365
+[2024.12.21-13.39.33:758][691]LogSlate: Window 'Color Picker' being destroyed
+[2024.12.21-13.41.30:077][311]LogSlate: Window 'Color Picker' being destroyed
+[2024.12.21-13.41.33:240][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.12.21-13.41.34:462][359]LogSlate: Window 'Save Content' being destroyed
+[2024.12.21-13.41.34:473][359]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.21-13.41.34:531][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.12.21-13.41.34:546][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.12.21-13.41.34:560][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.12.21-13.41.34:570][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/R6/M64Y2Q9BCFP3HUV0B7CI8P
+[2024.12.21-13.41.34:570][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/M64Y2Q9BCFP3HUV0B7CI8P0FACE2394933D3E7FED2CDA8DDD73D93.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/R6/M64Y2Q9BCFP3HUV0B7CI8P.uasset'
+[2024.12.21-13.41.34:573][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/ON/2KS0YLHG3OQZ8TU2E276E6
+[2024.12.21-13.41.34:573][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/2KS0YLHG3OQZ8TU2E276E6633E5A224EE79EF9A11D14B5B0758DF5.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/ON/2KS0YLHG3OQZ8TU2E276E6.uasset'
+[2024.12.21-13.41.34:576][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/US/05JD9QSTUVCMVIPE8KHCUO
+[2024.12.21-13.41.34:576][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/05JD9QSTUVCMVIPE8KHCUO855F757D47EF9F7358E2F0BB7521407A.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/US/05JD9QSTUVCMVIPE8KHCUO.uasset'
+[2024.12.21-13.41.34:579][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/BL/2RRYJQV4XWIF3QRTEIO8EC
+[2024.12.21-13.41.34:579][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/2RRYJQV4XWIF3QRTEIO8EC2ADF26BC43343E2F848927907E9254C1.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/BL/2RRYJQV4XWIF3QRTEIO8EC.uasset'
+[2024.12.21-13.41.34:582][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/4X/TA3JU95L3OPG17U1JJ8RF7
+[2024.12.21-13.41.34:582][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/TA3JU95L3OPG17U1JJ8RF731C1B19B4EEBF7E45F1FA59C24127B5B.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/4X/TA3JU95L3OPG17U1JJ8RF7.uasset'
+[2024.12.21-13.41.34:585][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/Q2/IFG0YVSDAHX7FSIJ9EM2YW
+[2024.12.21-13.41.34:585][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/IFG0YVSDAHX7FSIJ9EM2YWC22F5FE84F1D7BD706281F80CCE31B20.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/Q2/IFG0YVSDAHX7FSIJ9EM2YW.uasset'
+[2024.12.21-13.41.34:587][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/B6/SXT2VGFSXSV2022WM0ZDGY
+[2024.12.21-13.41.34:587][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/SXT2VGFSXSV2022WM0ZDGY638220C84C741211D16EA29B1F14D935.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/B6/SXT2VGFSXSV2022WM0ZDGY.uasset'
+[2024.12.21-13.41.34:590][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/GG/BC9I768PZBXYWNSONOXPLT
+[2024.12.21-13.41.34:590][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/BC9I768PZBXYWNSONOXPLTAE42011040FE753545AC3ABA8E28B915.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/GG/BC9I768PZBXYWNSONOXPLT.uasset'
+[2024.12.21-13.41.34:593][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/D6/AXAD4EDDJE1CFCZ9Z0CVHS
+[2024.12.21-13.41.34:593][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/AXAD4EDDJE1CFCZ9Z0CVHS3E831E3C4BE4AADF22831EADF141F5D8.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/D6/AXAD4EDDJE1CFCZ9Z0CVHS.uasset'
+[2024.12.21-13.41.34:595][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/9W/4SWT0PPXO3LO1EAM4ZBPUI
+[2024.12.21-13.41.34:595][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/4SWT0PPXO3LO1EAM4ZBPUI11BF881C44397F92A8AABCA74452967C.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/9W/4SWT0PPXO3LO1EAM4ZBPUI.uasset'
+[2024.12.21-13.41.34:598][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/71/SS1UPDLUF7BTOEU1LFD0G0
+[2024.12.21-13.41.34:598][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/SS1UPDLUF7BTOEU1LFD0G01EE4FDFE459C41AF1B0E60B0A65908B0.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/71/SS1UPDLUF7BTOEU1LFD0G0.uasset'
+[2024.12.21-13.41.34:600][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/I2/HCW9C92RA5WT0TQ16I3P0S
+[2024.12.21-13.41.34:600][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/HCW9C92RA5WT0TQ16I3P0SA06DECFF45413F51F41D9B95FD5D5127.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/I2/HCW9C92RA5WT0TQ16I3P0S.uasset'
+[2024.12.21-13.41.34:603][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/W7/J2X5UF1ER6LGEUXB13GJ8O
+[2024.12.21-13.41.34:603][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/J2X5UF1ER6LGEUXB13GJ8O1966D634464951B94DF09D94AE14F009.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/W7/J2X5UF1ER6LGEUXB13GJ8O.uasset'
+[2024.12.21-13.41.34:605][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/NM/E9RSDR1BR1VRTTXRY6U8VZ
+[2024.12.21-13.41.34:605][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/E9RSDR1BR1VRTTXRY6U8VZEAC2CD484EDCAD70CB1D3398E40D36B5.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/NM/E9RSDR1BR1VRTTXRY6U8VZ.uasset'
+[2024.12.21-13.41.34:608][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/98/H4BBXHHCPBPKT3SR7R3HR0
+[2024.12.21-13.41.34:608][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/H4BBXHHCPBPKT3SR7R3HR0928611904EC4472C1E1F258AFC885F6C.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/98/H4BBXHHCPBPKT3SR7R3HR0.uasset'
+[2024.12.21-13.41.34:610][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/JF/4UH7ZO76KKYYLJXS35P2M8
+[2024.12.21-13.41.34:610][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/4UH7ZO76KKYYLJXS35P2M827B777DE4671B50DE08D01BB26346F51.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/JF/4UH7ZO76KKYYLJXS35P2M8.uasset'
+[2024.12.21-13.41.34:613][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/RV/BN6KZ38TVQEE5UOM8UUXAA
+[2024.12.21-13.41.34:613][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/BN6KZ38TVQEE5UOM8UUXAAC2DFD4CC433D3FB7B460508B5E7E7861.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/RV/BN6KZ38TVQEE5UOM8UUXAA.uasset'
+[2024.12.21-13.41.34:615][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/2G/KNLZFVOCKDFX84GY2FLHX7
+[2024.12.21-13.41.34:615][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/KNLZFVOCKDFX84GY2FLHX7E1504CF74B46B19868DA8A87C6402510.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/2G/KNLZFVOCKDFX84GY2FLHX7.uasset'
+[2024.12.21-13.41.34:618][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/2S/ZB2Y0EHD1HLG76FK1CMYOM
+[2024.12.21-13.41.34:618][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/ZB2Y0EHD1HLG76FK1CMYOME69E163B421D936677293F87493D26A6.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/2S/ZB2Y0EHD1HLG76FK1CMYOM.uasset'
+[2024.12.21-13.41.34:620][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/0B/QPS87CPI30IVIET6GJLUUN
+[2024.12.21-13.41.34:620][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/QPS87CPI30IVIET6GJLUUN2505EF334E907FDF2F314AA3B545CB99.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/0B/QPS87CPI30IVIET6GJLUUN.uasset'
+[2024.12.21-13.41.34:623][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/0W/R38F830K37X359QXBHSZ47
+[2024.12.21-13.41.34:623][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/R38F830K37X359QXBHSZ475E85596741E35C2F1A67A0970F71EEB0.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/0W/R38F830K37X359QXBHSZ47.uasset'
+[2024.12.21-13.41.34:626][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/I5/7W9ED556NET6FSH41ZB7SP
+[2024.12.21-13.41.34:626][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/7W9ED556NET6FSH41ZB7SPAEEF8FF44071A7B0C5076C92D6DDE173.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/I5/7W9ED556NET6FSH41ZB7SP.uasset'
+[2024.12.21-13.41.34:629][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/G4/6K7J9Y61M3X9VRFIYQ4G4C
+[2024.12.21-13.41.34:629][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/6K7J9Y61M3X9VRFIYQ4G4CDD5410CA4F22D33A4B5F62B5D3CA9EED.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/G4/6K7J9Y61M3X9VRFIYQ4G4C.uasset'
+[2024.12.21-13.41.34:631][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/AR/S194V1QC6FR5GLD7D1XRNX
+[2024.12.21-13.41.34:631][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/S194V1QC6FR5GLD7D1XRNX2978845B401D30D903982584568E86C2.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/AR/S194V1QC6FR5GLD7D1XRNX.uasset'
+[2024.12.21-13.41.34:634][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/31/XXZB1CDYWN22BEW9ZO0KPR
+[2024.12.21-13.41.34:634][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/XXZB1CDYWN22BEW9ZO0KPR9B9EE56548BD195615B01E9084DA24E6.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/31/XXZB1CDYWN22BEW9ZO0KPR.uasset'
+[2024.12.21-13.41.34:636][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/VY/S3RXU498QY5UN2IMLUUWHF
+[2024.12.21-13.41.34:636][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/S3RXU498QY5UN2IMLUUWHFD97B4BEA41BCBACB64BE979A3EBB4C7E.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/VY/S3RXU498QY5UN2IMLUUWHF.uasset'
+[2024.12.21-13.41.34:638][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/LB/MHDRLIG1TRI9GFYHKGQO2R
+[2024.12.21-13.41.34:638][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/MHDRLIG1TRI9GFYHKGQO2R3870435D45C924E1B1D846905BD1B44F.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/LB/MHDRLIG1TRI9GFYHKGQO2R.uasset'
+[2024.12.21-13.41.34:641][359]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/6E/OMPZ2BA2LH3QTYG7BFQ3P9
+[2024.12.21-13.41.34:641][359]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/OMPZ2BA2LH3QTYG7BFQ3P954F95EE24D738B450FF1048475DA2231.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/6E/OMPZ2BA2LH3QTYG7BFQ3P9.uasset'
+[2024.12.21-13.41.34:686][359]LogFileHelpers: InternalPromptForCheckoutAndSave took 211.896 ms (total: 1.68 sec)
+[2024.12.21-13.41.34:735][359]LogContentValidation: Display: Starting to validate 28 assets
+[2024.12.21-13.41.34:735][359]LogContentValidation: Enabled validators:
+[2024.12.21-13.41.34:735][359]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.21-13.41.34:735][359]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.21-13.41.34:735][359]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.21-13.41.34:735][359]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.21-13.41.34:735][359]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.21-13.41.34:735][359]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.21-13.41.34:736][359]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2024.12.21-13.41.42:472][471]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.21-13.41.42:481][471]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.21-13.41.42:481][471]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.12.21-13.41.42:489][471]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 7.895 ms (total: 190.551 ms)
+[2024.12.21-13.41.42:489][471]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.21-13.41.42:490][471]LogPlayLevel: Display: Creating online subsystem for client :Context_24
+[2024.12.21-13.41.42:492][471]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.12.21-13.41.42:541][472]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.12.21-13.41.42:556][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015521s)
+[2024.12.21-13.41.42:557][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.015606s)
+[2024.12.21-13.41.42:572][472]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.12.21-13.41.42:577][472]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2024.12.21-13.41.42:579][472]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.21-13.41.42:579][472]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.21-13.41.42:579][472]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.21-13.41.42:579][472]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.21-13.41.42:584][472]LogWorldPartition: Display: WorldPartition initialize took 5.167 ms (total: 2.30 sec)
+[2024.12.21-13.41.42:584][472]LogPlayLevel: PIE: World Init took: (0.007437s)
+[2024.12.21-13.41.42:585][472]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.12.21-13.41.42:585][472]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.21-13.41.42:585][472]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.21-13.41.42:585][472]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.21-13.41.42:585][472]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.21-13.41.42:585][472]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.12.21-13.41.42:585][472]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.21-13.41.42:585][472]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.12.21-13.41.42:585][472]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.21-13.41.42:585][472]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.21-13.41.42:585][472]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.21-13.41.42:585][472]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.21-13.41.42:587][472]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.21-13.41.42:605][472]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2024.12.21-13.41.42:607][472]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.21-13.41.42:608][472]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.21-13.41.42:608][472]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.21-13.41.42:608][472]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2024.12.21-13.41.42:609][472]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2024.12.21-13.41.42:612][472]LogInit: FAudioDevice initialized with ID 23.
+[2024.12.21-13.41.42:612][472]LogAudio: Display: Audio Device (ID: 23) registered with world 'FirstPersonMap'.
+[2024.12.21-13.41.42:612][472]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.12.21-13.41.42:612][472]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2024.12.21-13.41.42:612][472]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.12.21-13.41.42:679][472]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.12.21-13.41.42:689][472]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.12.21-08.41.42
+[2024.12.21-13.41.42:691][472]LogWorld: Bringing up level for play took: 0.010805
+[2024.12.21-13.41.42:696][472]PIE: Server logged in
+[2024.12.21-13.41.42:697][472]PIE: Play in editor total start time 0.216 seconds.
+[2024.12.21-13.43.01:457][566]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.21-13.43.01:457][566]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.12.21-13.43.01:457][566]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.21-13.43.01:459][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.21-13.43.01:460][566]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2024.12.21-13.43.01:553][566]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.21-13.43.01:559][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.21-13.43.01:576][566]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.21-13.43.01:576][566]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.12.21-13.43.01:576][566]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.12.21-13.43.01:579][566]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.12.21-13.43.01:585][566]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.21-13.43.01:592][566]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.12.21-13.43.01:756][567]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.12.21-13.43.19:281][816]Cmd: EDIT COPY
+[2024.12.21-13.43.19:723][823]Cmd: EDIT PASTE
+[2024.12.21-13.44.08:208][439]Cmd: EDIT COPY
+[2024.12.21-13.44.08:467][443]Cmd: EDIT PASTE
+[2024.12.21-13.44.16:549][545]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 30401.404297
+[2024.12.21-13.44.17:037][547]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-13.44.17:037][547]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 30401.589844, Update Interval: 330.916473
+[2024.12.21-13.44.43:223][904]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.21-13.44.43:232][904]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.12.21-13.44.43:232][904]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.12.21-13.44.43:239][904]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 7.115 ms (total: 197.666 ms)
+[2024.12.21-13.44.43:239][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.21-13.44.43:239][904]LogPlayLevel: Display: Creating online subsystem for client :Context_25
+[2024.12.21-13.44.43:242][904]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.12.21-13.44.43:280][905]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.12.21-13.44.43:295][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014927s)
+[2024.12.21-13.44.43:295][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.014994s)
+[2024.12.21-13.44.43:311][905]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.12.21-13.44.43:313][905]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2024.12.21-13.44.43:315][905]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.21-13.44.43:315][905]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.21-13.44.43:315][905]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.21-13.44.43:315][905]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.21-13.44.43:320][905]LogWorldPartition: Display: WorldPartition initialize took 5.069 ms (total: 2.31 sec)
+[2024.12.21-13.44.43:320][905]LogPlayLevel: PIE: World Init took: (0.006724s)
+[2024.12.21-13.44.43:323][905]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2024.12.21-13.44.43:323][905]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.21-13.44.43:323][905]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.21-13.44.43:323][905]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.21-13.44.43:323][905]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.21-13.44.43:323][905]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.12.21-13.44.43:323][905]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.21-13.44.43:323][905]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.12.21-13.44.43:323][905]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.21-13.44.43:323][905]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.21-13.44.43:323][905]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.21-13.44.43:323][905]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.21-13.44.43:326][905]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.21-13.44.43:344][905]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2024.12.21-13.44.43:344][905]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.21-13.44.43:344][905]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.21-13.44.43:344][905]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.21-13.44.43:346][905]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2024.12.21-13.44.43:346][905]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2024.12.21-13.44.43:347][905]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2024.12.21-13.44.43:347][905]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2024.12.21-13.44.43:347][905]LogInit: FAudioDevice initialized with ID 24.
+[2024.12.21-13.44.43:347][905]LogAudio: Display: Audio Device (ID: 24) registered with world 'FirstPersonMap'.
+[2024.12.21-13.44.43:347][905]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2024.12.21-13.44.43:398][905]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.12.21-13.44.43:408][905]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.12.21-08.44.43
+[2024.12.21-13.44.43:410][905]LogWorld: Bringing up level for play took: 0.011754
+[2024.12.21-13.44.43:415][905]PIE: Server logged in
+[2024.12.21-13.44.43:416][905]PIE: Play in editor total start time 0.185 seconds.
+[2024.12.21-13.45.28:463][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.21-13.45.28:463][521]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.12.21-13.45.28:463][521]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.21-13.45.28:465][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.21-13.45.28:465][521]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2024.12.21-13.45.28:634][521]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.21-13.45.28:640][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.21-13.45.28:661][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.21-13.45.28:663][521]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2024.12.21-13.45.28:663][521]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.12.21-13.45.28:666][521]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.12.21-13.45.28:676][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.12.21-13.45.28:809][522]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.12.21-13.46.25:251][326]Cmd: DELETE
+[2024.12.21-13.46.25:251][326]Cmd: ACTOR DELETE
+[2024.12.21-13.46.25:253][326]LogEditorActor: Deleted Actor: PointLight
+[2024.12.21-13.46.25:268][326]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.12.21-13.46.25:271][326]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2024.12.21-13.46.55:236][747]LogStreaming: Display: FlushAsyncLoading(549): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.21-13.46.55:238][747]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Megascans/Surfaces/Desert_Western_Ground_Gravel_Slate_01_venoehv/NewMaterial_Inst.NewMaterial_Inst
+[2024.12.21-13.46.55:248][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float1.png' error.
+[2024.12.21-13.46.55:248][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/None.png' error.
+[2024.12.21-13.46.55:248][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/None.png
+[2024.12.21-13.46.55:248][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float1.png
+[2024.12.21-13.46.55:248][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Bool.png' error.
+[2024.12.21-13.46.55:248][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Bool.png
+[2024.12.21-13.46.55:248][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float2.png' error.
+[2024.12.21-13.46.55:248][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float2.png
+[2024.12.21-13.46.55:248][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RPY.png' error.
+[2024.12.21-13.46.55:248][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RPY.png
+[2024.12.21-13.46.55:248][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RGB.png' error.
+[2024.12.21-13.46.55:248][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RGB.png
+[2024.12.21-13.46.55:248][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_XYZ.png' error.
+[2024.12.21-13.46.55:248][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_XYZ.png
+[2024.12.21-13.46.55:248][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float4_RGBA.png' error.
+[2024.12.21-13.46.55:248][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float4_RGBA.png
+[2024.12.21-13.46.55:248][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_SinglePixel.png' error.
+[2024.12.21-13.46.55:248][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float_Any.png' error.
+[2024.12.21-13.46.55:248][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_SinglePixel.png
+[2024.12.21-13.46.55:249][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float_Any.png
+[2024.12.21-13.46.55:249][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftTopRight.png' error.
+[2024.12.21-13.46.55:249][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftTopRight.png
+[2024.12.21-13.46.55:249][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Texture.png' error.
+[2024.12.21-13.46.55:249][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Texture.png
+[2024.12.21-13.46.55:249][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftBottomRight.png' error.
+[2024.12.21-13.46.55:249][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftBottomRight.png
+[2024.12.21-13.46.55:249][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeUnlit.png' error.
+[2024.12.21-13.46.55:249][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeUnlit.png
+[2024.12.21-13.46.55:249][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopRightBottom.png' error.
+[2024.12.21-13.46.55:249][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopRightBottom.png
+[2024.12.21-13.46.55:249][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeDefaultLit.png' error.
+[2024.12.21-13.46.55:249][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeDefaultLit.png
+[2024.12.21-13.46.55:249][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Remove_16px.png' error.
+[2024.12.21-13.46.55:249][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Remove_16px.png
+[2024.12.21-13.46.55:249][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/WhiteBall.png' error.
+[2024.12.21-13.46.55:249][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/WhiteBall.png
+[2024.12.21-13.46.55:249][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopLeftBottom.png' error.
+[2024.12.21-13.46.55:249][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopLeftBottom.png
+[2024.12.21-13.46.55:249][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/BaseToggle_16x.png' error.
+[2024.12.21-13.46.55:249][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/BaseToggle_16x.png
+[2024.12.21-13.46.55:249][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaskToggle_16x.png' error.
+[2024.12.21-13.46.55:249][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Top.png' error.
+[2024.12.21-13.46.55:249][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaskToggle_16x.png
+[2024.12.21-13.46.55:249][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Top.png
+[2024.12.21-13.46.55:249][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Duplicate_40x.png' error.
+[2024.12.21-13.46.55:249][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Bottom.png' error.
+[2024.12.21-13.46.55:249][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Duplicate_40x.png
+[2024.12.21-13.46.55:249][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Bottom.png
+[2024.12.21-13.46.55:249][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerAdd.png' error.
+[2024.12.21-13.46.55:249][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerAdd.png
+[2024.12.21-13.46.55:249][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Left.png' error.
+[2024.12.21-13.46.55:249][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Left.png
+[2024.12.21-13.46.55:249][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerRemove.png' error.
+[2024.12.21-13.46.55:249][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerRemove.png
+[2024.12.21-13.46.55:249][747]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Right.png' error.
+[2024.12.21-13.46.55:249][747]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Right.png
+[2024.12.21-13.46.55:268][747]LogChaosDD: Creating Chaos Debug Draw Scene for world World_2
+[2024.12.21-13.47.09:006][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.12.21-13.47.10:113][256]LogSlate: Window 'Save Content' being destroyed
+[2024.12.21-13.47.10:135][256]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.21-13.47.10:196][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.12.21-13.47.10:212][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2024.12.21-13.47.10:226][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.12.21-13.47.10:228][256]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/EI/5VM3U9FTEZ2WMXEQXWRNQN
+[2024.12.21-13.47.10:228][256]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/5VM3U9FTEZ2WMXEQXWRNQN913A607242C48170DBEABBAB2AC3970A.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/EI/5VM3U9FTEZ2WMXEQXWRNQN.uasset'
+[2024.12.21-13.47.10:230][256]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/5J/0VDBYJGRPOEDZEAIJY05GI
+[2024.12.21-13.47.10:230][256]LogSavePackage: Moving '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Saved/0VDBYJGRPOEDZEAIJY05GIF2210EFD42B48E633E2BDEADA9E775B4.tmp' to '../../../../../../Users/NADIA/Documents/Unreal Projects/UE_Master_File/MyProject5/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/5J/0VDBYJGRPOEDZEAIJY05GI.uasset'
+[2024.12.21-13.47.10:238][256]LogFileHelpers: InternalPromptForCheckoutAndSave took 103.860 ms (total: 1.78 sec)
+[2024.12.21-13.47.10:282][256]LogContentValidation: Display: Starting to validate 2 assets
+[2024.12.21-13.47.10:282][256]LogContentValidation: Enabled validators:
+[2024.12.21-13.47.10:282][256]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.21-13.47.10:282][256]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.21-13.47.10:282][256]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.21-13.47.10:282][256]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.21-13.47.10:282][256]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.21-13.47.10:283][256]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.21-13.47.10:283][256]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
