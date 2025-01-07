@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\nadia\\documents\\unreal projects\\ue_master_file\\myproject5\\source\\myproject5\\myproject5.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\nadia\\documents\\unreal projects\\ue_master_file\\myproject5\\intermediate\\build\\win64\\x64\\myproject5editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\nadia\\documents\\unreal projects\\ue_master_file\\myproject5\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject5\\definitions.myproject5.h",
+            "c:\\users\\nadia\\documents\\unreal projects\\ue_master_file\\myproject5\\source\\myproject5\\myproject5.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
