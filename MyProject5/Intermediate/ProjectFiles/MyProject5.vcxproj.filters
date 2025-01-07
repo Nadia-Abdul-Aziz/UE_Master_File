@@ -33,10 +33,10 @@
     <Filter Include="Source\MyProject5">
       <UniqueIdentifier>{76E1545D-F5F4-3A7D-BE4E-8535030F0F93}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\MyProject5\baseClass.cpp">
+    <ClCompile Include="..\..\Source\MyProject5\defaultClass.cpp">
       <Filter>Source\MyProject5</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\MyProject5\baseClass.h">
+    <ClCompile Include="..\..\Source\MyProject5\defaultClass.h">
       <Filter>Source\MyProject5</Filter>
     </ClCompile>
     <None Include="..\..\Source\MyProject5\MyProject5.Build.cs">
@@ -46,6 +46,12 @@
       <Filter>Source\MyProject5</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\MyProject5\MyProject5.h">
+      <Filter>Source\MyProject5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProject5\placeHolderActor.cpp">
+      <Filter>Source\MyProject5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProject5\placeHolderActor.h">
       <Filter>Source\MyProject5</Filter>
     </ClCompile>
   </ItemGroup>
